@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Montserrat+Alternates&display=swap');
+
+@import 'vars';
+@import 'mixins';
+@import 'type';
+
+body{
+  background-color: #000;
+}
+
 /**
  * Toolkit styles
  */
-
-body {
-  font-family: sans-serif;
-}
