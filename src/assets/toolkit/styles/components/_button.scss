@@ -1,0 +1,35 @@
+.btn{
+  @include type-setup(1.8rem, 2.2rem, $font-body);
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+.btn--primary{
+  background-color: $primary-500;
+  color: $base-050;
+  border: none;
+}
+
+.btn--secondary{
+  background-color: $secondary-500;
+  color: $base-050;
+  border: none;
+}
+
+.btn--base{
+  background-color: $base-500;
+  color: $base-050;
+  border: none;
+}
+
+.btn--warning{
+  background-color: $warning-500;
+  color: $base-050;
+  border: none;
+}
+
+.btn--success{
+  background-color: $success-500;
+  color: $base-050;
+  border: none;
+}
