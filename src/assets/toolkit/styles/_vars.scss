@@ -21,39 +21,37 @@
   $secondary-800: '#9F4615';
   $secondary-900: '#80360C';
 
-  /**
-  Base:
-    050: "#FFFFFF"
-    100: "#D7D7D7"
-    200: "#ABABAB"
-    300: "#7F7F7F"
-    400: "#606060"
-    500: "#4C4C4C"
-    600: "#3E3E3E"
-    700: "#2B2B2B"
-    800: "#161616"
-    900: "#000000"
-  Warning:
-    100: "#FF9292"
-    200: "#FF7A7A"
-    300: "#F56363"
-    400: "#FF5A5A"
-    500: "#E34E4E"
-    600: "#CA3535"
-    700: "#B52E2E"
-    800: "#9C1A1A"
-    900: "#721111"
-  Success:
-    100: "#99C7FF"
-    200: "#77B5FF"
-    300: "#4C9BFA"
-    400: "#2A8BFF"
-    500: "#006BEC"
-    600: "#004190"
-    700: "#003576"
-    800: "#001D3F"
-    900: "#000F20"
-    **/
+  $base-050: '#FFFFFF';
+  $base-100: '#D7D7D7';
+  $base-200: '#ABABAB';
+  $base-300: '#7F7F7F';
+  $base-400: '#606060';
+  $base-500: '#4C4C4C';
+  $base-600: '#3E3E3E';
+  $base-700: '#2B2B2B';
+  $base-800: '#161616';
+  $base-900: '#000000';
+
+  $warning-100: '#FF9292';
+  $warning-200: '#FF7A7A';
+  $warning-300: '#F56363';
+  $warning-400: '#FF5A5A';
+  $warning-500: '#E34E4E';
+  $warning-600: '#CA3535';
+  $warning-700: '#B52E2E';
+  $warning-800: '#9C1A1A';
+  $warning-900: '#721111';
+
+  $success-100: '#99C7FF';
+  $success-200: '#77B5FF';
+  $success-300: '#4C9BFA';
+  $success-400: '#2A8BFF';
+  $success-500: '#006BEC';
+  $success-600: '#004190';
+  $success-700: '#003576';
+  $success-800: '#001D3F';
+  $success-900: '#000F20';
+
 
 /** Type **/
 $font-body: 'Montserrat Alternates', sans-serif;
