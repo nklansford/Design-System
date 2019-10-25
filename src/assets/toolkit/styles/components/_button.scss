@@ -1,35 +1,92 @@
+// BASE BUTTON
 .btn{
   @include type-setup(1.8rem, 2.2rem, $font-body);
   border-radius: 8px;
   padding: 10px 30px;
 }
 
+// REGULAR BUTTONS
 .btn--primary{
-  background-color: $primary-500;
-  color: $base-050;
-  border: none;
+  @include button-presets(#830C01, #FFFFFF, none);
+    &:hover{
+      background-color: #490600;
+    }
+    &:focus{
+      border: 3px solid #99C7FF;
+    }
 }
 
 .btn--secondary{
-  background-color: $secondary-500;
-  color: $base-050;
-  border: none;
+  @include button-presets(#EB8B55, #FFFFFF, none);
+    &:hover{
+      background-color: #B7541D;
+    }
+    &:focus{
+      border: 3px solid #99C7FF;
+    }
 }
 
 .btn--base{
-  background-color: $base-500;
-  color: $base-050;
-  border: none;
+  @include button-presets(#4C4C4C, #FFFFFF, none);
+    &:hover{
+      background-color: #2B2B2B;
+    }
+    &:focus{
+      border: 3px solid #99C7FF;
+    }
 }
 
 .btn--warning{
-  background-color: $warning-500;
-  color: $base-050;
-  border: none;
+  @include button-presets(#E34E4E, #FFFFFF, none);
+    &:hover{
+      background-color: #B52E2E;
+    }
+    &:focus{
+      border: 3px solid #99C7FF;
+    }
 }
 
 .btn--success{
-  background-color: $success-500;
-  color: $base-050;
-  border: none;
+  @include button-presets(#006BEC, #FFFFFF, none);
+    &:hover{
+      background-color: #003576;
+    }
+    &:focus{
+      border: 3px solid #99C7FF;
+    }
+}
+
+// FLAT or GHOST BUTTONS
+.btn--flat{
+  @include button--flat-presets(transparent, #FFFFFF, 2px solid);
+    &.btn--primary{
+      border-color: #830C01;
+    }
+      &:hover{
+        background-color: #830C01;
+      }
+    &.btn--secondary{
+      border-color: #EB8B55;
+        &:hover{
+          background-color: #EB8B55;
+        }
+    }
+    &.btn--base{
+      border-color: #4C4C4C;
+    }
+      &:hover{
+        background-color: #4C4C4C;
+      }
+    &.btn--warning{
+      border-color: #E34E4E;
+        &:hover{
+          background-color: #E34E4E;
+        }
+    }
+    &.btn--success{
+      border-color: #006BEC;
+        &:hover{
+          background-color: #006BEC;
+        }
+    }
 }
