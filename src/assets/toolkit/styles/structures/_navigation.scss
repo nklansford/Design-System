@@ -1,0 +1,18 @@
+//MOBILE BUILD (waiting on image bug fix)
+nav-mobile{
+  #nav-mobile_links_logo{
+    @include type-setup(2rem, 2.4rem, $font-body);
+    color: #830C01;
+  }
+}
+#nav-mobile_links{
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 0px auto;
+}
+
+//TABLET BUILD (waiting for image bug fix)
+  //insert tablet build here...
+
+//DESKTOP BUILD
