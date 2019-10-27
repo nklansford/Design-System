@@ -1,4 +1,12 @@
 //MOBILE BUILD (waiting on image bug fix)
+.active{
+  border: 1px solid #830C01;
+  border-radius: 8px;
+  padding: 4px;
+}
+nav{
+  margin-bottom: 50px;
+}
 nav-mobile{
   #nav-mobile_links_logo{
     @include type-setup(2rem, 2.4rem, $font-body);
