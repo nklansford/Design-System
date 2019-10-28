@@ -1,0 +1,83 @@
+nav {
+  margin-bottom: 50px;
+}
+
+// MOBILE
+#nav-mobile {
+  width: 236px;
+  #nav-mobile_links {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px auto;
+    #nav-mobile_links_logo {
+      @include type-setup(2rem, 2.4rem, $font-body);
+      color: #830C01;
+      margin-top: 26px;
+    }
+    div#nav-mobile_links_hamburger-menu {
+      width: 58px;
+      text-align: center;
+      p{
+        margin: 0px;
+      }
+    }
+  }
+}
+
+//TABLET BUILD 
+#nav-tablet {
+  width: 700px;
+  #nav-tablet_links {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px auto;
+    #nav-tablet_links_logo {
+      @include type-setup(2rem, 2.4rem, $font-body);
+      color: #830C01;
+      margin-top: 26px;
+    }
+    div#nav-tablet_links_hamburger-menu {
+      width: 58px;
+      text-align: center;
+      p{
+        margin: 0px;
+      }
+    }
+  }
+}
+
+//DESKTOP BUILD
+#nav-desktop{
+  width: 940px;
+  #nav-desktop_links{
+    display: flex;
+    flex-flow: row wrap;
+    width: 780px;
+    justify-content: space-between;
+    margin: 0px auto;
+    #nav-desktop_links_logo{
+      color: #830C01;
+      @include type-setup(2rem, 2.4rem, $font-body);
+    }
+  }
+  ul#nav-desktop_links_list{
+    display: flex;
+    flex-flow: row wrap;
+    width: 368px;
+    margin-top: 26px;
+    justify-content: space-between;
+  }
+  li.nav-desktop_links_list_item{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    a{
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  }
+}

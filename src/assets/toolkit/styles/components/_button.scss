@@ -1,0 +1,127 @@
+// BASE BUTTON
+.btn{
+  @include type-setup(1.8rem, 2.2rem, $font-body);
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+// REGULAR BUTTONS
+.btn--primary{
+  @include button-presets(#830C01, #FFFFFF, none);
+    &:hover{
+      background-color: #490600;
+    }
+    &:focus{
+      border: 2px solid #99C7FF;
+      outline: none;
+      box-shadow: 0 0 0 2px #99C7FF;
+    }
+}
+
+.btn--secondary{
+  @include button-presets(#EB8B55, #FFFFFF, none);
+    &:hover{
+      background-color: #B7541D;
+    }
+    &:focus{
+      border: 2px solid #99C7FF;
+      outline: none;
+      box-shadow: 0 0 0 2px #99C7FF;
+    }
+}
+
+.btn--base{
+  @include button-presets(#4C4C4C, #FFFFFF, none);
+    &:hover{
+      background-color: #2B2B2B;
+    }
+    &:focus{
+      border: 2px solid #99C7FF;
+      outline: none;
+      box-shadow: 0 0 0 2px #99C7FF;
+    }
+}
+
+.btn--warning{
+  @include button-presets(#E34E4E, #FFFFFF, none);
+    &:hover{
+      background-color: #B52E2E;
+    }
+    &:focus{
+      border: 2px solid #99C7FF;
+      outline: none;
+      box-shadow: 0 0 0 2px #99C7FF;
+    }
+}
+
+.btn--success{
+  @include button-presets(#006BEC, #FFFFFF, none);
+    &:hover{
+      background-color: #003576;
+    }
+    &:focus{
+      border: 2px solid #99C7FF;
+      outline: none;
+      box-shadow: 0 0 0 2px #99C7FF;
+    }
+}
+
+// FLAT or GHOST BUTTONS
+.btn--flat{
+  @include button--flat-presets(transparent, #FFFFFF, 2px solid);
+    &.btn--primary{
+      border-color: #830C01;
+    }
+      &:hover{
+        background-color: #830C01;
+      }
+      &:focus{
+        border: 2px solid #99C7FF;
+        outline: none;
+        box-shadow: 0 0 0 2px #99C7FF;
+      }
+    &.btn--secondary{
+      border-color: #EB8B55;
+        &:hover{
+          background-color: #EB8B55;
+        }
+        &:focus{
+          border: 2px solid #99C7FF;
+          outline: none;
+          box-shadow: 0 0 0 2px #99C7FF;
+        }
+    }
+    &.btn--base{
+      border-color: #4C4C4C;
+    }
+      &:hover{
+        background-color: #4C4C4C;
+      }
+      &:focus{
+        border: 2px solid #99C7FF;
+        outline: none;
+        box-shadow: 0 0 0 2px #99C7FF;
+      }
+    &.btn--warning{
+      border-color: #E34E4E;
+        &:hover{
+          background-color: #E34E4E;
+        }
+        &:focus{
+          border: 2px solid #99C7FF;
+          outline: none;
+          box-shadow: 0 0 0 2px #99C7FF;
+        }
+    }
+    &.btn--success{
+      border-color: #006BEC;
+        &:hover{
+          background-color: #006BEC;
+        }
+        &:focus{
+          border: 2px solid #99C7FF;
+          outline: none;
+          box-shadow: 0 0 0 2px #99C7FF;
+        }
+    }
+}

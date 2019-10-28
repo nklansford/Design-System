@@ -1,0 +1,36 @@
+a{
+  color: #4C9BFA;
+  text-decoration: underline;
+    &:hover{
+      color: #ABABAB;
+    }
+    &.link-focus{
+      border: 1px solid #4C9BFA;
+      border-radius: 8px;
+      padding: 4px;
+    }
+}
+body {
+  @include type-setup(1.4rem, 1.8rem, $font-body);
+}
+h1{
+  @include type-setup(2.5rem, 2.7rem, $font-heading);
+}
+h2{
+  @include type-setup(1.8rem, 2.7rem, $font-heading);
+}
+h3{
+  @include type-setup(1.4rem, 1.8rem, $font-heading);
+}
+.heading--important{
+  color: #830C01;
+}
+html{
+  font-size: 10px;
+  color: #fff;
+}
+li{
+  @include type-setup(1.4rem, 1.8rem, $font-body);
+  margin-left: 44px;
+  padding-left: 23px;
+}

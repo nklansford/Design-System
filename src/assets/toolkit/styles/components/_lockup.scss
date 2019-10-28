@@ -1,0 +1,15 @@
+.lockup{
+  width: 219px;
+  bottom-margin: 70px;
+}
+.lockup__header{
+  text-align: center;
+}
+.lockup__redirects{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.lockup__redirects__btn{
+  margin-bottom: 11px;
+}

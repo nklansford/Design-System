@@ -1,0 +1,15 @@
+.countdown{
+  width: 219px;
+  margin: 0px auto;
+}
+
+.countdown_timer{
+  @include type-setup(3.8rem, 2.6rem, $font-heading);
+  color: #830C01;
+  border: 3px solid #830C01;
+  border-radius: 8px;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  width: 220px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+@mixin type-setup($size, $line-height, $font-family) {
+  font-size: $size;
+  line-height: $line-height;
+  font-family: $font-family;
+}
+
+@mixin button-presets($background-color, $text-color, $border){
+background-color: $background-color;
+color: $text-color;
+border: $border;
+}
+
+@mixin button--flat-presets($background-color, $text-color, $border){
+background-color: $background-color;
+color: $text-color;
+border: $border;
+}
