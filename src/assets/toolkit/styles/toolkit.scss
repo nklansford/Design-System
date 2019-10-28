@@ -4,8 +4,8 @@
 @import 'mixins';
 @import 'type';
 
-@import 'views/pages/home';
 @import 'structures/site-nav';
+@import 'structures/grouped-lockup';
 @import 'components/button';
 @import 'components/countdown';
 @import 'components/lockup';
@@ -13,4 +13,6 @@
 
 body{
   background-color: #000;
+  width: 1028px;
+  margin: 0px auto;
 }
