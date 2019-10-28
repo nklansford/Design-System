@@ -1,19 +1,24 @@
-//MOBILE BUILD (waiting on image bug fix)
-.active{
+.active {
   border: 1px solid #830C01;
   border-radius: 8px;
   padding: 4px;
 }
-nav{
+nav {
   margin-bottom: 50px;
 }
-nav-mobile{
-  #nav-mobile_links_logo{
+
+// MOBILE
+nav-mobile {
+  #nav-mobile_links_logo {
     @include type-setup(2rem, 2.4rem, $font-body);
     color: #830C01;
   }
+  div#nav-mobile_links_hamburger-menu {
+    width: 58px;
+    text-align: center;
+  }
 }
-#nav-mobile_links{
+#nav-mobile_links {
   display: flex;
   flex-flow: row wrap;
   width: 90%;

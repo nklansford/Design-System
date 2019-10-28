@@ -4,10 +4,12 @@
 @import 'mixins';
 @import 'type';
 
+@import 'views/pages/home';
 @import 'structures/site-nav';
 @import 'components/button';
 @import 'components/countdown';
 @import 'components/lockup';
+@import 'components/image-gallery';
 
 body{
   background-color: #000;
